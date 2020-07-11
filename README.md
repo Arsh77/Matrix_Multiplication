@@ -25,6 +25,6 @@ Run steps:
 
     eg of command: 
 
-    hadoop /target/matrix_multiplication-0.0.1-SNAPSHOT.jar matrix_multiplication.MatrixMultiplication /user/mtxM/input/A.txt /user/mtxM/output 10000 10000 10000 /
+    hadoop /target/matrix_multiplication-0.0.1-SNAPSHOT.jar matrix_multiplication.MatrixMultiplication /user/mtxM/input/A.txt /user/mtxM/output 10000 10000 10000 
 
 
