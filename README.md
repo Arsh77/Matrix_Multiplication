@@ -13,11 +13,11 @@ Run steps:
   
       Make a directory using "hdfs dfs -mkdir <directory name>" eg($ hdfs dfs -mkdir /user) 
     
-      Add the fiel to hadoop file system by using command "hdfs dfs -put <location of file> <directory in hdfs that you have made>" eg($ hdf dfs ~/Documents/A.txt /user/mtxM/input/) 
+      Add the file to hadoop file system by using command "hdfs dfs -put <location of file> <directory in hdfs that you have made>" eg($ hdf dfs ~/Documents/A.txt /user/mtxM/input/) 
 
-    Now to run the program first make a jar file by using the command "mvn clean install". 
+    Now to run the program, first make a jar file by using the command "mvn clean install". 
 
-    Once the jar is build using the following command: 
+    Once the jar is build, use the following command: 
 
         $ hadoop jar <location/name/of/jar> matrix_multiplication.MatrixMultiplication <hdfs input file location> <hdfs output location> <i> <j> <k> 
   
